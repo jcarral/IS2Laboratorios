@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e931e6f-7827-497d-b165-7bbb0c17f5de" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4solid/isp/Contacto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4solid/isp/EmailContact.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4solid/isp/EmailSender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4solid/isp/GmailAccount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4solid/isp/MainISP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4solid/isp/PhoneContact.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4solid/isp/SMSSender.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/t4solid/dip/Deduccion.java" afterPath="$PROJECT_DIR$/src/t4solid/dip/Deduccion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/t4solid/dip/DeduccionContract.java" afterPath="$PROJECT_DIR$/src/t4solid/dip/DeduccionContract.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/t4solid/dip/Factura.java" afterPath="$PROJECT_DIR$/src/t4solid/dip/Factura.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/t4solid/dip/Iva.java" afterPath="$PROJECT_DIR$/src/t4solid/dip/Iva.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/t4solid/dip/Iva16.java" afterPath="$PROJECT_DIR$/src/t4solid/dip/Iva16.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/t4solid/dip/IvaContract.java" afterPath="$PROJECT_DIR$/src/t4solid/dip/IvaContract.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/t4solid/dip/MainDIP.java" afterPath="$PROJECT_DIR$/src/t4solid/dip/MainDIP.java" />
     </list>
     <ignored path="IS2Labs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,31 +30,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Iva16.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/t4solid/dip/Iva16.java">
+      <file leaf-file-name="Contacto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t4solid/isp/Contacto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="75">
+              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GmailAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t4solid/isp/GmailAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IvaContract.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/t4solid/dip/IvaContract.java">
+      <file leaf-file-name="MainISP.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/t4solid/isp/MainISP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Iva.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/t4solid/dip/Iva.java">
+      <file leaf-file-name="EmailContact.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t4solid/isp/EmailContact.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -63,41 +75,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Factura.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/t4solid/dip/Factura.java">
+      <file leaf-file-name="PhoneContact.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t4solid/isp/PhoneContact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeduccionContract.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/t4solid/dip/DeduccionContract.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Deduccion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/t4solid/dip/Deduccion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainDIP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/t4solid/dip/MainDIP.java">
+      <file leaf-file-name="EmailSender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t4solid/isp/EmailSender.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SMSSender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t4solid/isp/SMSSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -108,6 +110,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -137,6 +140,13 @@
         <option value="$PROJECT_DIR$/src/t4solid/dip/Factura.java" />
         <option value="$PROJECT_DIR$/src/t4solid/dip/DeduccionContract.java" />
         <option value="$PROJECT_DIR$/src/t4solid/dip/Deduccion.java" />
+        <option value="$PROJECT_DIR$/src/t4solid/isp/EmailContact.java" />
+        <option value="$PROJECT_DIR$/src/t4solid/isp/PhoneContact.java" />
+        <option value="$PROJECT_DIR$/src/t4solid/isp/Contacto.java" />
+        <option value="$PROJECT_DIR$/src/t4solid/isp/EmailSender.java" />
+        <option value="$PROJECT_DIR$/src/t4solid/isp/SMSSender.java" />
+        <option value="$PROJECT_DIR$/src/t4solid/isp/GmailAccount.java" />
+        <option value="$PROJECT_DIR$/src/t4solid/isp/MainISP.java" />
       </list>
     </option>
   </component>
@@ -151,7 +161,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -223,29 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IS2Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IS2Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="t4solid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dip" />
+              <option name="myItemId" value="isp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -670,8 +658,8 @@
         <state relative-caret-position="105">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="false" />
+            <element signature="e#183#184#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -758,8 +746,8 @@
         <state relative-caret-position="105">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="false" />
+            <element signature="e#183#184#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -769,7 +757,7 @@
         <state relative-caret-position="120">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="e#155#161#0" expanded="true" />
+            <element signature="e#155#161#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -779,8 +767,8 @@
         <state relative-caret-position="75">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="false" />
+            <element signature="e#186#187#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -811,8 +799,8 @@
         <state relative-caret-position="105">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="false" />
+            <element signature="e#183#184#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -838,7 +826,7 @@
         <state relative-caret-position="330">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#155#161#0" expanded="true" />
+            <element signature="e#155#161#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -855,8 +843,8 @@
         <state relative-caret-position="75">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="false" />
+            <element signature="e#186#187#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -906,8 +894,8 @@
         <state relative-caret-position="90">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="false" />
+            <element signature="e#243#244#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -916,6 +904,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4solid/isp/EmailContact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4solid/isp/SMSSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4solid/isp/Contacto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4solid/isp/GmailAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4solid/isp/EmailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4solid/isp/PhoneContact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4solid/isp/MainISP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
