@@ -16,4 +16,5 @@ public class Deduccion implements DeduccionContract{
         return importeDeduccion;
 
     }
+
 }

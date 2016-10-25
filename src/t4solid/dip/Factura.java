@@ -1,5 +1,6 @@
 package t4solid.dip;
 
+
 import java.util.Date;
 
 
@@ -29,4 +30,5 @@ public class Factura {
         // Calculamos el total
         importeTotal = (importeFactura - importeDeduccion) + importeIVA;
     }
+
 }
