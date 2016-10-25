@@ -8,16 +8,17 @@ import java.util.Vector;
 
 public class Project {
 
-    public Vector<ProjectFile> files=new Vector<ProjectFile>();
-    public void addProject(ProjectFile p){
+    public Vector<File> files=new Vector<File>();
+    public void addProject(File p){
         files.add(p);
     }
     public void loadAllFiles(){
-        for (ProjectFile f:files)
+        for (File f:files)
             f.loadFile();
     }
     public void saveAllFiles(){
-        for (ProjectFile f:files)
-            f.saveFile();
+        for (File f:files)
+            if(f instanceof FileSaveable)
+                ((FileSaveable) f).saveFile();
     }
 }

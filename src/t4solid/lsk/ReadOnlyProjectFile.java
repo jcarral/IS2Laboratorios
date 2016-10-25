@@ -1,6 +1,6 @@
 package t4solid.lsk;
 
-public class ReadOnlyProjectFile extends ProjectFile {
+public class ReadOnlyProjectFile extends File {
 
     public ReadOnlyProjectFile(String filePath) {
         super(filePath);
