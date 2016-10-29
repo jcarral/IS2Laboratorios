@@ -2,62 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e931e6f-7827-497d-b165-7bbb0c17f5de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/String.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patrones/Puja.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patrones/Subasta.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patrones/Usuario.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/AddressBook.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/BigFont.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Bold.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/FontFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/IFontStyle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Italic.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/MainAdp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Pantalla$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Pantalla$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Pantalla$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Pantalla$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Pantalla.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Person.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/PersonIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Plain.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Sorting.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/dip/Deduccion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/dip/DeduccionContract.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/dip/Factura.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/dip/Iva.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/dip/Iva16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/dip/IvaContract.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/dip/MainDIP.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/isp/Contacto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/isp/EmailContact.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/isp/EmailSender.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/isp/GmailAccount.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/isp/MainISP.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/isp/PhoneContact.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/isp/SMSSender.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patrones/Puja.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patrones/String.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patrones/Subasta.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patrones/Usuario.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/adapter/AddressBook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/adapter/AddressBookAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/adapter/MainABAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/adapter/MainAdp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/adapter/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/adapter/PersonCityComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/adapter/PersonIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/adapter/PersonNameComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/adapter/Sorting.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/factory/BigFont.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/factory/Bold.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/factory/FontFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/factory/IFontStyle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/factory/Italic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/factory/Plain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/lsk/File.class" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/lsk/File.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/lsk/FileSaveable.class" afterPath="$PROJECT_DIR$/out/production/IS2Labs/t4solid/lsk/FileSaveable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/observer/DesplegableFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/observer/Modelo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/observer/PantallaColor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/observer/PantallaTexto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/observer/Principal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/observer/State.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/observer/UnColor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/t4patternbox/observer/Vista.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/AddressBook.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/AddressBookAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/BigFont.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Bold.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/FontFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/IFontStyle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Italic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/MainABAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/MainAdp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Pantalla$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Pantalla$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Pantalla$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Pantalla$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Pantalla.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/PersonCityComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/PersonIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/PersonNameComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Plain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IS2Labs/t4patternbox/Sorting.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IS2Labs.iws" />
@@ -78,7 +50,97 @@
     <favorites_list name="IS2Labs" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UnColor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/UnColor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding>
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vista.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/Vista.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesplegableFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/DesplegableFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PantallaColor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/PantallaColor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PantallaTexto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/PantallaTexto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Principal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/Principal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Modelo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/Modelo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,10 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/t3mantenimiento/test/MetroTest.java" />
-        <option value="$PROJECT_DIR$/src/t2pruebas/pruebas/SubastaTest.java" />
-        <option value="$PROJECT_DIR$/src/t4solid/lsk/ReadOnlyProjectFile.java" />
-        <option value="$PROJECT_DIR$/src/t4solid/lsk/ProjectFile.java" />
         <option value="$PROJECT_DIR$/src/t4solid/lsk/Project.java" />
         <option value="$PROJECT_DIR$/src/t4solid/lsk/FileSaveable.java" />
         <option value="$PROJECT_DIR$/src/t4solid/lsk/File.java" />
@@ -146,6 +204,14 @@
         <option value="$PROJECT_DIR$/src/t4patternbox/adapter/Person.java" />
         <option value="$PROJECT_DIR$/src/t4patternbox/factory/Plain.java" />
         <option value="$PROJECT_DIR$/src/t4patternbox/adapter/Sorting.java" />
+        <option value="$PROJECT_DIR$/src/t4patternbox/observer/Modelo.java" />
+        <option value="$PROJECT_DIR$/src/t4patternbox/observer/State.java" />
+        <option value="$PROJECT_DIR$/src/t4patternbox/observer/Vista.java" />
+        <option value="$PROJECT_DIR$/src/t4patternbox/observer/UnColor.java" />
+        <option value="$PROJECT_DIR$/src/t4patternbox/observer/PantallaTexto.java" />
+        <option value="$PROJECT_DIR$/src/t4patternbox/observer/DesplegableFrame.java" />
+        <option value="$PROJECT_DIR$/src/t4patternbox/observer/PantallaColor.java" />
+        <option value="$PROJECT_DIR$/src/t4patternbox/observer/Principal.java" />
       </list>
     </option>
   </component>
@@ -178,9 +244,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,9 +295,32 @@
               <option name="myItemId" value="t4patternbox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IS2Labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IS2Labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="t4patternbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,11 +328,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/t4patternbox/observer" />
       <recent name="$PROJECT_DIR$/src/t4patrones" />
       <recent name="$PROJECT_DIR$/src/t4patternbox" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainABAdapter">
+  <component name="RunManager" selected="Application.Principal">
     <configuration default="false" name="MainLSK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -313,6 +402,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="t4patternbox.adapter.MainABAdapter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IS2Labs" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="t4patternbox.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="t4patternbox.observer.Principal" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -569,18 +678,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.MainLSK" />
       <item index="1" class="java.lang.String" itemvalue="Application.Pantalla" />
       <item index="2" class="java.lang.String" itemvalue="Application.MainAdp" />
       <item index="3" class="java.lang.String" itemvalue="Application.MainABAdapter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Principal" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainABAdapter" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainAdp" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Pantalla" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MainLSK" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Principal" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainABAdapter" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainAdp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Pantalla" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MainLSK" />
       </list>
     </recent_temporary>
   </component>
@@ -599,27 +710,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21927711" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21927711" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3192771" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -673,63 +784,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/t4solid/srp/ImporteDeduccion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/t4solid/srp/IVA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/t4solid/lsk/MainLSK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="98" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/t4solid/lsk/ProjectFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/t4solid/lsk/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/t4solid/lsk/FileSaveable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/t2pruebas/pruebas/PruebaSubasta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/t3mantenimiento/test/MetroTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/t2pruebas/pruebas/SubastaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-710">
@@ -755,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="98" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,12 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,9 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,7 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,10 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -970,15 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -986,7 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,15 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/t4patternbox/factory/BigFont.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,7 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,7 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,7 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,7 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,7 +1057,7 @@
         <state relative-caret-position="15">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1052,7 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,6 +1073,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4patternbox/factory/BigFont.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/UnColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/Modelo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/Vista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/PantallaTexto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/DesplegableFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/PantallaColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t4patternbox/observer/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
