@@ -8,7 +8,7 @@ import java.util.List;
  * La subasta representa un producto por el que se puede pujar.
  * 
  */
-public class Subasta {
+public class Subasta extends Subject{
 	private final String producto;
 	private Usuario propietario;
 	private boolean abierta;
@@ -81,7 +81,7 @@ public class Subasta {
 			Puja puja = new Puja(pujador, cantidad);
 			
 			pujas.add(puja);
-			
+			toNotify();
 			return true;
 		}
 		else

@@ -13,6 +13,7 @@ public class MainSubastas {
         Usuario pedro = new Usuario ("Pedro", "perico@hotmail.com", LocalDate.of(1979, 6, 9), 150);
 
         Subasta subasta = new Subasta("Cerveza", pedro);
+        new MailSender(subasta);
         subasta.pujar(enrique);
         subasta.pujar(juan);
         subasta.pujar(enrique);
