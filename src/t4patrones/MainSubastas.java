@@ -23,7 +23,7 @@ public class MainSubastas {
         subasta.pujar(enrique);
 
         ExtendedIterator<Puja> it = subasta.getPujas();
-
+        new SubastaTable(subasta);
         Puja p;
         it.goLast();
         System.out.println("Orden inverso:");
