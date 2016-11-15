@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<f:view>
+	<head>
+<title>Una simple aplicacion JavaServer Faces</title>
+	</head>
+	<body>
+		<h:form>
+			<h3>Por favor, introduzca su número de cuenta y password (número
+				entre 1 y 500).</h3>
+			<table>
+				<tr>
+					<td>Nombre:</td>
+					<td><h:inputText id="nom" value="#{login.nombre}"></h:inputText></td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><h:inputSecret id="pass" value="#{login.password}">
+							<f:validateLongRange minimum="1" maximum="500" />
+						</h:inputSecret></td>
+					<td><h:message for="pass" style="color:red" /></td>
+				</tr>
+				<tr>
+					<td>Fecha(dd/MM/yyyy):</td>
+					<td><h:inputText id="fecha" value="#{login.fecha}">
+						<f:convertDateTime pattern="dd/MM/yyyy" />
+						</h:inputText></td>
+					<td><h:message for="fecha" style="color:red"/></td>
+				</tr>
+				<tr>
+					<td><h:selectOneMenu>
+							<f:selectItem itemLabel="Estudiante" itemValue="Estudiante"></f:selectItem>
+							<f:selectItem itemLabel="Profesor" itemValue="Profesor"></f:selectItem>
+						</h:selectOneMenu></td>
+				</tr>
+			</table>
+			<h:messages style="color:blue" />
+			<p>
+				<h:commandButton value="Aceptar" action="#{login.comprobar}" />
+
+			</p>
+		</h:form>
+	</body>
+</f:view>
+</html>
