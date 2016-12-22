@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui" xmlns:o="http://omnifaces.org/ui"
+	xmlns:of="http://omnifaces.org/functions">
+<f:view>
+	<h:head>
+		<title>queryAvailability</title>
+    <h:outputStylesheet name="style.css" />
+	</h:head>
+	<h:body>
+		<h3>Query Availability</h3>
+		<h:form style="height: 100px; ">
+
+			<h4>
+				Código:
+				<h:selectOneMenu value="#{queryBean.ruralHouse}"
+					converter="omnifaces.SelectItemsConverter">
+					<f:selectItems value="#{queryBean.ruralHouses}" />
+				</h:selectOneMenu>
+			</h4>
+			<br />
+
+
+			<p:calendar value="#{queryBean.firstDay}" mode="inline"
+				navigator="true" pages="1" />
+
+
+			<h4>
+				Número de noches:
+				<h:inputText style="height: 21px; " value="#{queryBean.noches}">
+					<!--  <f:validateLongRange minimum="1" maximum="31" /> -->
+				</h:inputText>
+				<br />
+			</h4>
+
+
+			<h:dataTable rendered="true" value="#{queryBean.ofertas}"
+				var="oferta">
+				<h:column>
+					<f:facet name="header">Offer</f:facet>
+					<h:outputText value="#{oferta.offerNumber}" />
+				</h:column>
+
+				<h:column>
+					<f:facet name="header">RuralHouse </f:facet>
+					<h:outputText value="#{oferta.ruralHouse}" />
+				</h:column>
+
+				<h:column>
+					<f:facet name="header">First Day</f:facet>
+					<h:outputText value="#{oferta.firstDay}">
+					<f:convertDateTime type="date" pattern="dd-MM-yyyy"/>
+					</h:outputText>
+				</h:column>
+
+				<h:column>
+					<f:facet name="header">Last Day</f:facet>
+					<h:outputText value="#{oferta.lastDay}">
+					<f:convertDateTime type="date" pattern="dd-MM-yyyy"/>
+					</h:outputText>
+				</h:column>
+
+				<h:column>
+					<f:facet name="header">Price</f:facet>
+					<h:outputText value="#{oferta.price}" />
+				</h:column>
+				<h:column>
+				<f:facet name="header">Reservar</f:facet>
+				<h:commandButton value="Ir a reservar" action="#{bookingBean.storeBooking(oferta)}"></h:commandButton>
+				</h:column>
+			</h:dataTable>
+
+			<h:commandButton value="Actualizar ofertas" action="#{queryBean.actualizarOfertas}"/>
+			<h:commandButton value="Volver al inicio" action="volverAInicio" />
+
+		</h:form>
+	</h:body>
+</f:view>
+</html>

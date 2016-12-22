@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<f:view>
+	<head>
+<title>Reservar casa</title>
+	</head>
+	<body>
+		<h:form id="myform">
+			<h3>Introduce los datos para reservar una casa</h3>
+
+			<div class="login">
+				<h4>Datos de usuario:</h4>
+				<div class="row">
+					<label for="username">Nombre de usurio:</label>
+					<h:inputText id="username" value="#{bookingBean.username}" required="true" requiredMessage="Introduce un nombre de usuario"/>
+					<h:message class="error" for="username" id="usernameError" />
+				</div>
+				<div class="row">
+					<label for="tfn">Número de teléfono:</label>
+					<h:inputText id="tfn" value="#{bookingBean.telephone}" required="true" requiredMessage="Introduce un número valido">
+					<f:convertNumber integerOnly="true"
+					    maxIntegerDigits="9"
+					   />
+					 </h:inputText>
+					 <h:message class="error" for="tfn" id="tfnError" />
+				</div>
+				<div class="row">
+					<label for="email">Correo electrónico:</label>
+					<h:inputText id="email" value="#{bookingBean.email}" required="true" requiredMessage="Introduce un correo eléctronico">
+					<f:validateRegex pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+					</h:inputText>
+					<h:message class="error" for="email" id="emailError" />
+				</div>
+			</div>
+			
+			<div class="booking">
+				<div class="row">
+					Ciudad:
+					<h:outputText value="#{bookingBean.offer.ruralHouse}" />
+				</div>
+				<div class="row">
+				Fecha de inicio:
+				<h:outputText value="#{bookingBean.offer.firstDay}">
+					<f:convertDateTime type="date" pattern="dd-MM-yyyy"/>
+				</h:outputText>
+				</div>
+				<div class="row">
+				Fecha fin:
+				<h:outputText value="#{bookingBean.offer.lastDay}">
+					<f:convertDateTime type="date" pattern="dd-MM-yyyy"/>
+				</h:outputText>
+				</div>
+				<div class="row">
+				Precio: 
+				<h:outputText value="#{bookingBean.offer.price}" />
+				</div>
+			</div>
+		<h:commandButton value="Confirmar reserva" action="#{bookingBean.createBooking}"></h:commandButton>
+		<h:commandButton value="Volver a inicio" action="volverInicio" immediate="true"/>
+		
+		</h:form>
+		<h:messages globalOnly="true" styleClass="messages"/>
+	</body>
+</f:view>
+</html>

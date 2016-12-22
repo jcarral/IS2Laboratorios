@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14792046508590" configfile="/labRuralHouse/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" x="72" y="287" id="pf14792061931218" referenceLink="//@navigationRule.3/@navigationCase.0/@toViewId|" outlinks="pf14792061931219 pf147920661132811" inlinks="pf14798956170730 pf14798956170731 pf14820095307732" path="/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="queryAvailability.xhtml" x="444" y="96" id="pf147920619312110" referenceLink="//@navigationRule.2/@fromViewId|" outlinks="pf14798956170730 pf14819938216680" inlinks="pf14792061931219" path="/queryAvailability.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="setAvailability.xhtml" x="360" y="350" id="pf147920661132812" referenceLink="//@navigationRule.3/@fromViewId|" outlinks="pf14798956170731" inlinks="pf147920661132811" path="/setAvailability.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="booking.xhtml" x="672" y="96" id="pf14819938216681" outlinks="pf14820095307732" inlinks="pf14819938216680" path="/booking.xhtml"/>
+  <links id="pf14792061931219" target="pf147920619312110" source="pf14792061931218" outcome="queryAvailability" redirect="true"/>
+  <links id="pf147920661132811" target="pf147920661132812" source="pf14792061931218" outcome="setAvailability"/>
+  <links id="pf14798956170730" target="pf14792061931218" source="pf147920619312110" outcome="volverAInicio"/>
+  <links id="pf14798956170731" target="pf14792061931218" source="pf147920661132812" outcome="volverInicio"/>
+  <links id="pf14819938216680" target="pf14819938216681" source="pf147920619312110" outcome="ok"/>
+  <links id="pf14820095307732" target="pf14792061931218" source="pf14819938216681" outcome="volverInicio"/>
+</pageflow:Pageflow>
